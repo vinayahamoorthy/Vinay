@@ -19,6 +19,8 @@
 		5BC4EED71940358500BF2FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC4EEBF1940358500BF2FE6 /* UIKit.framework */; };
 		5BC4EEDF1940358500BF2FE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4EEDD1940358500BF2FE6 /* InfoPlist.strings */; };
 		5BC4EEE11940358500BF2FE6 /* PhotoAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4EEE01940358500BF2FE6 /* PhotoAlbumTests.m */; };
+		5BC4EEED194040E400BF2FE6 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4EEEB194040E400BF2FE6 /* AlbumView.m */; };
+		5BC4EEEE194040E400BF2FE6 /* AlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4EEEC194040E400BF2FE6 /* AlbumView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5BC4EEDC1940358500BF2FE6 /* PhotoAlbumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoAlbumTests-Info.plist"; sourceTree = "<group>"; };
 		5BC4EEDE1940358500BF2FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BC4EEE01940358500BF2FE6 /* PhotoAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumTests.m; sourceTree = "<group>"; };
+		5BC4EEEA194040E400BF2FE6 /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		5BC4EEEB194040E400BF2FE6 /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		5BC4EEEC194040E400BF2FE6 /* AlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				5BC4EECB1940358500BF2FE6 /* AppDelegate.m */,
 				5BC4EECD1940358500BF2FE6 /* Images.xcassets */,
 				5BC4EEC21940358500BF2FE6 /* Supporting Files */,
+				5BC4EEEA194040E400BF2FE6 /* AlbumView.h */,
+				5BC4EEEB194040E400BF2FE6 /* AlbumView.m */,
+				5BC4EEEC194040E400BF2FE6 /* AlbumView.xib */,
 			);
 			path = PhotoAlbum;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC4EEEE194040E400BF2FE6 /* AlbumView.xib in Resources */,
 				5BC4EEC61940358500BF2FE6 /* InfoPlist.strings in Resources */,
 				5BC4EECE1940358500BF2FE6 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				5BC4EECC1940358500BF2FE6 /* AppDelegate.m in Sources */,
 				5BC4EEC81940358500BF2FE6 /* main.m in Sources */,
+				5BC4EEED194040E400BF2FE6 /* AlbumView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +451,7 @@
 				5BC4EEE61940358500BF2FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC4EEE71940358500BF2FE6 /* Build configuration list for PBXNativeTarget "PhotoAlbumTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +460,7 @@
 				5BC4EEE91940358500BF2FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
